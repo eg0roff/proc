@@ -9,3 +9,8 @@ class Quotation():
     name=''
     content = ''
 
+
+class riddles():
+    index=''
+    answer=''
+    content=''

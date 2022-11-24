@@ -6,9 +6,19 @@ def out_shape(container, j):
         type='цитата'
         out_Aforizm.out_aforizm(container,j,type)
 
-
-
     elif container[j].index=='1':
         type ='афоризм'
         out_quotation.out_quot(container,j,type)
 
+
+def filtered_shape(container,j,label):
+    if label == '0':
+        if container[j].index == '0':
+            type = 'цитата'
+            out_Aforizm.out_aforizm(container, j, type)
+
+
+    elif label== '1':
+        if container[j].index == '1':
+            type = 'афоризм'
+            out_quotation.out_quot(container, j, type)

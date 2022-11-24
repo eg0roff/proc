@@ -15,3 +15,4 @@ class riddles():
     index=''
     answer=''
     content=''
+    mark = ''

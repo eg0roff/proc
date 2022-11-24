@@ -1,18 +1,19 @@
-class Aforizm():
-    index=''
-    country=''
-    content=''
-    mark=''
-
-class Quotation():
+class Aforizm:
     index = ''
-    name=''
+    country = ''
     content = ''
-    mark=''
+    mark = ''
 
 
-class riddles():
-    index=''
-    answer=''
-    content=''
+class Quotation:
+    index = ''
+    name = ''
+    content = ''
+    mark = ''
+
+
+class Riddles:
+    index = ''
+    answer = ''
+    content = ''
     mark = ''

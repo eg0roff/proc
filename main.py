@@ -2,7 +2,6 @@ import cont_construct
 import container_in
 import container_out
 import container_clean
-import punc_marks
 import sort
 
 container=cont_construct.container_construct()

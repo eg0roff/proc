@@ -1,5 +1,6 @@
 import punc_marks
 def sort(container):
+    razmernost=0
     for i in range(len(container)):
         if container[i] == "":
             razmernost = i

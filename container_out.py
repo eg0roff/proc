@@ -17,4 +17,3 @@ def print_container(container):
         elif razmernost == 0:
             fout.write(f'\nКонтейнер содержит {razmernost} элементов:')
             fout.write(f'\nКонтейнер очень пуст')
-

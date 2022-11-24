@@ -1,5 +1,4 @@
 
-
 def print_punc_marks_count(container):
     punc_marks='"",.;:!?\/'
     for i in range(len(container)):
@@ -16,3 +15,14 @@ def print_punc_marks_count(container):
                         punc_count+=1
 
             fout.write(f'\nВ строке {i}, содержится {punc_count} знаков препинания')
+
+
+def count_for_sort(container1):
+    punc_count = 0
+    punc_marks = '"",.;:!?\/'
+    for mark in punc_marks:
+        str = container1.content
+        for j in range(len(str)):
+            if str[j].find(mark) != -1:
+                punc_count += 1
+    return punc_count
